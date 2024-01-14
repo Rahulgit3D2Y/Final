@@ -4,9 +4,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
 <style>
-body{
-    background-color: purple;
-}
+ 
 .change{
     font-size:20px;
 }
