@@ -1,0 +1,158 @@
+body {
+    background-color: transparent;
+    background-image: url(image/1161810.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+ }
+
+main{
+    width: 700px;
+}
+
+.logo {
+    padding-left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3333337a;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #3b83f69f;
+    border-radius: 1rem;
+    
+}
+
+main{
+    display: grid;
+    gap: 20px;
+}
+
+.field1 {
+    background-image: url(image/1099191.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 0;
+    background-color: #1f2937;
+    padding: 50px;
+    border-radius: 10px;
+    height:250px;
+
+}
+
+.field1 p {
+    color: rgb(62, 18, 218);
+    font-weight: bold;
+}
+.field1 a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(12, 126, 18);
+    color: white;
+}
+.face {
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+.button1 {
+    background-color: #3b82f6;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+
+.field2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background:linear-gradient(rgba(255, 255, 255, 0.493),rgba(255, 255, 255, 0.541));
+    border-radius: 10px;
+}
+
+.field2 h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.column {
+    flex: 0 0 23%; 
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.field3 {
+    background-color: #e5e7ebc2;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    height: 270px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.fourthpara {
+    background:url(image/1161811.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 70px;
+    margin: 10px 0;
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #1f2937c9;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.container {
+    min-width: 250px;
+    padding: 2px;
+    background-image: url(image/1161890.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 0;
+    min-width: 250px;
+}
+
+.container a {
+    color: red;
+}
